@@ -4,7 +4,7 @@ const http = require('http').Server(app);
 const cors = require('express-cors');
 const bodyParser = require('body-parser');
 
-app.use(cors({ allowedOrigins: ['*'] }));
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('port', process.env.PORT || 3000);
