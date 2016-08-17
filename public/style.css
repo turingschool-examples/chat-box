@@ -1,0 +1,14 @@
+body, input {
+  font: menu;
+}
+
+body {
+  width: 500px;
+  margin: auto;
+}
+
+.messages {
+  border: 1px dashed #CCC;
+  min-height: 10px;
+  margin-bottom: 1em;
+}
